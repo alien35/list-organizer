@@ -1,0 +1,33 @@
+{
+  "name": "list-organizer",
+  "version": "0.1.0",
+  "description": "Cognitive AI Agent & CLI for Hierarchical Feature Refinement (Miller 1956 7±2, Wei et al. 2024, JTBD)",
+  "bin": {
+    "listorg": "./bin/listorg.js",
+    "list-organizer": "./bin/listorg.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "help": "node --experimental-strip-types src/cli.ts help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alien35/list-organizer.git"
+  },
+  "keywords": [
+    "information-architecture",
+    "hierarchical-feature-refinement",
+    "cognitive-psychology",
+    "miller-law",
+    "jobs-to-be-done",
+    "requirements-engineering",
+    "sple",
+    "ai-agent",
+    "feature-trees",
+    "traceability",
+    "product-management"
+  ],
+  "author": "Alexander Leon",
+  "license": "MIT"
+}

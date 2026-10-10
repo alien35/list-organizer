@@ -1,0 +1,81 @@
+root_scope: "Digital Notary Platform"
+description: "Decomposition of remote online notarization capabilities into customer-facing domains."
+
+domains:
+  - id: DOM-01
+    name: "Legal Compliance & Security"
+    icon: "🛡️"
+    consumer_benefit: "Ensure every transaction is audit-ready and tamper-proof."
+    
+    capabilities:
+      - id: CAP-011
+        name: "Tamper-Evident Audit Certificate"
+        description: "Generates a cryptographically signed PDF summary of all signer events."
+        why_it_matters: "Proof of integrity for court disputes"
+        status:
+          our_app: true
+          competitor_a: true
+        references:
+          - source: "CompetitorA Compliance Guide"
+            url: "https://competitor.com/compliance"
+            quote: "Every completed packet includes an audit certificate."
+
+      - id: CAP-012
+        name: "Biometric Signer Verification"
+        description: "Validates signer identity via government ID scan and selfie match."
+        why_it_matters: "Prevent identity fraud on high-value deals"
+        status:
+          our_app: false
+          competitor_a: true
+        references:
+          - source: "CompetitorA Feature Page"
+            url: "https://competitor.com/id-verify"
+            quote: "Verify signers in real time with biometric ID checking."
+
+      - id: CAP-013
+        name: "Notary Electronic Journal Logging"
+        description: "Maintains tamper-evident sequential audit record conforming to SOS statutory guidelines."
+        why_it_matters: "Satisfies state notary compliance regulations"
+        status:
+          our_app: true
+          competitor_a: true
+        references:
+          - source: "State SOS Notary Handbook"
+            url: "https://sos.state.gov/notary-handbook"
+            quote: "All RON sessions must be logged in an electronic journal."
+
+  - id: DOM-02
+    name: "Signing Experience & Speed"
+    icon: "⚡"
+    consumer_benefit: "Close agreements in minutes without friction or login requirements."
+    
+    capabilities:
+      - id: CAP-021
+        name: "Instant Mobile In-Person Signing"
+        description: "Hand a tablet or phone to signers for immediate signature capture."
+        why_it_matters: "Hand over your phone or tablet on-site"
+        status:
+          our_app: true
+          competitor_a: false
+        references: []
+
+      - id: CAP-022
+        name: "No-Account Guest Access"
+        description: "Signers review and execute packets without creating passwords or logins."
+        why_it_matters: "Zero drop-off from forgotten passwords"
+        status:
+          our_app: true
+          competitor_a: false
+        references: []
+
+      - id: CAP-023
+        name: "SMS One-Touch Link Dispatch"
+        description: "Sends instantaneous signing invitations via SMS with one-click access."
+        why_it_matters: "Accelerates completion velocity by 3x vs email"
+        status:
+          our_app: true
+          competitor_a: true
+        references:
+          - source: "CompetitorA Product Sheet"
+            url: "https://competitor.com/sms-signing"
+            quote: "Send signature requests directly to signer mobile phones."

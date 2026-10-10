@@ -1,0 +1,7 @@
+- Daily Mood Logging: Capture emotional valence and energy ratings on a 1-10 scale twice daily.
+- Mood Trigger Identification: Associates logged moods with calendar events and external triggers.
+- Trend Visualizations: Generates rolling 30-day graphs of emotional state fluctuations.
+- Virtual Therapy Sessions: Secure WebRTC video consultation room with licensed mental health therapists.
+- In-Session Chat & Exercises: Interactive worksheets and live chat during active therapy appointments.
+- Progress Analytics Dashboard: Measures clinical assessment score improvements over 8-week treatment blocks.
+- Crisis Intervention Hotline Link: Instant single-touch routing to emergency mental health response lines.

@@ -1,0 +1,12 @@
+- Tamper-Evident Audit Certificate: Generates a cryptographically signed PDF summary of all signer events. Why it matters: Proof of integrity for court disputes
+- Biometric Signer Verification: Validates signer identity via government ID scan and selfie match. Why it matters: Prevent identity fraud on high-value deals
+- Instant Mobile In-Person Signing: Hand a tablet or phone to signers for immediate signature capture. Why it matters: Hand over your phone or tablet on-site
+- Electronic Journal Logging: Maintains tamper-evident sequential audit record conforming to state notary guidelines.
+- Dynamic Knowledge-Based Authentication: Generates 5 private credit bureau questions with 2-minute expiration timers.
+- Auto-Detect PDF Signature Fields: Machine learning scanner detects signature lines and automatically drops required signing boxes.
+- Real-Time Video Call Session Recording: Captures full audiovisual notary session in encrypted MP4 container.
+- Stripe Escrow & Fee Collection: Captures statutory notary fee and escrow deposits before packet release.
+- SMS Instant Notification: Pings transaction participants via text message when documents are signed.
+- Bulk Signer Invitation: Dispatches invitation links to up to 20 signers simultaneously.
+- REST Webhook Pipeline: Posts HMAC-signed webhooks on packet completion to external systems.
+- Credential Analysis Engine: Evaluates security features on driver licenses under multi-spectral simulation.
